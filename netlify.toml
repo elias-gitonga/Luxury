@@ -1,0 +1,7 @@
+[build]
+  node_version = "16"
+  command = "npm install && npm run build" # Specify your build command
+  publish = "public" # Specify the directory to publish
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
